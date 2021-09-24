@@ -1,0 +1,174 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632460846477' stop='1632460889276'>
+    <name>Web Driver IO App Login Test</name>
+    <title>Web Driver IO App Login Test</title>
+    <test-cases>
+        <test-case start='1632460846477' status='passed' stop='1632460882973'>
+            <name>Install WebDriverIO Application</name>
+            <title>Install WebDriverIO Application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Z2 Plus 7.0-7.0'/>
+                <parameter kind='argument' name='device' value='Z2 Plus 7.0-7.0'/>
+            </parameters>
+            <steps>
+                <step start='1632460846487' status='passed' stop='1632460882968'>
+                    <name>POST /session/:sessionId/appium/device/install_app</name>
+                    <title>POST /session/:sessionId/appium/device/install_app</title>
+                    <attachments>
+                        <attachment title='Request' source='032c81fb-2ac0-4096-bd5b-fbae62c528f6-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632460882975' status='passed' stop='1632460883701'>
+            <name>Run WebDriverIO App</name>
+            <title>Run WebDriverIO App</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Z2 Plus 7.0-7.0'/>
+            </parameters>
+            <steps>
+                <step start='1632460882977' status='passed' stop='1632460883701'>
+                    <name>POST /session/:sessionId/appium/device/activate_app</name>
+                    <title>POST /session/:sessionId/appium/device/activate_app</title>
+                    <attachments>
+                        <attachment title='Request' source='13972872-034a-4b14-a2c5-69245546a9c1-attachment.json' type='application/json' size='32'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632460883701' status='broken' stop='1632460887930'>
+            <name>Login to Appplication</name>
+            <title>Login to Appplication</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Z2 Plus 7.0-7.0'/>
+            </parameters>
+            <steps>
+                <step start='1632460883704' status='passed' stop='1632460886117'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e3f0b64b-9272-42c9-827a-5eddd45d34ff-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='c4080cce-42f5-4683-8acf-e8bdc0dda3b7-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632460886158' status='passed' stop='1632460886243'>
+                    <name>POST /session/:sessionId/element/086ab9ed-6499-47d9-890d-3189a1aae69a/click</name>
+                    <title>POST /session/:sessionId/element/086ab9ed-6499-47d9-890d-3189a1aae69a/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1632460886244' status='passed' stop='1632460886366'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='03fa8b2b-a4a8-42b2-a0cd-b7f0ae3de587-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='367d13f9-0619-4018-9298-8290965c1457-attachment.json' type='application/json' size='497'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632460886377' status='passed' stop='1632460886442'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='58ed4419-7bbb-4841-967e-28a35cfe536a-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='7b34fc73-7142-42a3-a0ab-e0f777464b32-attachment.json' type='application/json' size='497'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632460886885' status='passed' stop='1632460887187'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3add009c-1165-4bca-abd5-9cfef5dc772b-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='3df5f01d-b33e-4abb-aaaf-84d7b6c59391-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632460887196' status='passed' stop='1632460887255'>
+                    <name>GET /session/:sessionId/element/6ee49d9b-fe0e-4cb8-8027-8e58f65662ac/displayed</name>
+                    <title>GET /session/:sessionId/element/6ee49d9b-fe0e-4cb8-8027-8e58f65662ac/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='37eceb82-20fa-48fd-96bd-eb7de478d659-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632460887255' status='passed' stop='1632460887364'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dda75847-f038-4bf9-8b36-9194a5db5490-attachment.json' type='application/json' size='59'/>
+                        <attachment title='Response' source='427bb9bc-650a-4ea2-9668-a486c656c729-attachment.json' type='application/json' size='136'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1632460887395' status='passed' stop='1632460887927'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d0f9826c-3535-455c-858c-ca6cc830728e-attachment.png' type='image/png' size='122234'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property 'username' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'username' of undefined
+                    at Context.&lt;anonymous> (D:\TCSTraining\AppiumPOM\tests\/TC_001_Login.js:25:47)
+                    at Context.executeSync (D:\TCSTraining\AppiumPOM\node_modules\@wdio\sync\build\index.js:38:22)
+                    at D:\TCSTraining\AppiumPOM\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1632460887932' status='passed' stop='1632460889275'>
+            <name>Close WebDriverIO App</name>
+            <title>Close WebDriverIO App</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Z2 Plus 7.0-7.0'/>
+                <parameter kind='argument' name='device' value='Z2 Plus 7.0-7.0'/>
+            </parameters>
+            <steps>
+                <step start='1632460887932' status='passed' stop='1632460889273'>
+                    <name>POST /session/:sessionId/appium/device/terminate_app</name>
+                    <title>POST /session/:sessionId/appium/device/terminate_app</title>
+                    <attachments>
+                        <attachment title='Request' source='fbf4d5b7-afbc-43f6-add3-42c97cf0735d-attachment.json' type='application/json' size='32'/>
+                        <attachment title='Response' source='2baf807c-1b12-48e9-a9e7-bed70b434ff8-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

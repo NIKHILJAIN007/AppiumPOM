@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1632411298970' stop='1632411314081'>
+    <name>Automate WebDriverIO Application</name>
+    <title>Automate WebDriverIO Application</title>
+    <test-cases>
+        <test-case start='1632411298971' status='passed' stop='1632411307426'>
+            <name>Install WebDriverIO Application</name>
+            <title>Install WebDriverIO Application</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Z2 Plus 7.0-7.0'/>
+                <parameter kind='argument' name='device' value='Z2 Plus 7.0-7.0'/>
+            </parameters>
+            <steps>
+                <step start='1632411298983' status='passed' stop='1632411307424'>
+                    <name>POST /session/:sessionId/appium/device/install_app</name>
+                    <title>POST /session/:sessionId/appium/device/install_app</title>
+                    <attachments>
+                        <attachment title='Request' source='317aa6d0-eef6-4c56-ba1c-18ada0947ab8-attachment.json' type='application/json' size='80'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632411307427' status='passed' stop='1632411311077'>
+            <name>Run WebDriverIO App</name>
+            <title>Run WebDriverIO App</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Z2 Plus 7.0-7.0'/>
+            </parameters>
+            <steps>
+                <step start='1632411307428' status='passed' stop='1632411308072'>
+                    <name>POST /session/:sessionId/appium/device/activate_app</name>
+                    <title>POST /session/:sessionId/appium/device/activate_app</title>
+                    <attachments>
+                        <attachment title='Request' source='5234b3fb-c909-44bd-a78c-659283a507f2-attachment.json' type='application/json' size='32'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1632411311077' status='passed' stop='1632411314081'>
+            <name>Close WebDriverIO App</name>
+            <title>Close WebDriverIO App</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='Z2 Plus 7.0-7.0'/>
+                <parameter kind='argument' name='device' value='Z2 Plus 7.0-7.0'/>
+            </parameters>
+            <steps>
+                <step start='1632411311078' status='passed' stop='1632411314079'>
+                    <name>POST /session/:sessionId/appium/device/terminate_app</name>
+                    <title>POST /session/:sessionId/appium/device/terminate_app</title>
+                    <attachments>
+                        <attachment title='Request' source='0c09c4d5-d926-483a-acd8-4dce3c5c2c81-attachment.json' type='application/json' size='32'/>
+                        <attachment title='Response' source='ec9f746b-c0f7-429a-bb57-86edf0e3b1eb-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
